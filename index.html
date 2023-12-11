@@ -1,43 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Grayson</title>
+    <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
     <header class="header">
-      <div class="container header__wrap">
-        <div class="header__logo">
+      <div class="container header__nav">
+        <a href="#" class="header__nav-logo">
           <img src="./images/logo.png" alt="" />
-        </div>
-        <ul class="header__list">
-          <li class="header__list-item">
-            <a href="$" class="header__list-item-link">HOME</a>
+        </a>
+        <ul class="header__nav-list">
+          <li class="header__nav-list-item">
+            <a href="#" class="header__nav-list-item-link">HOME</a>
           </li>
-          <li class="header__list-item">
-            <a href="$" class="header__list-item-link">PAGES</a>
+          <li class="header__nav-list-item">
+            <a href="#" class="header__nav-list-item-link">PAGES</a>
           </li>
-          <li class="header__list-item">
-            <a href="$" class="header__list-item-link">PORTFOLIO</a>
+          <li class="header__nav-list-item">
+            <span>PORTFOLIO</span>
+            <img src="./images/arrow.svg" alt="" />
+            <ul class="dropdown">
+              <li class="dropdown__item">
+                <a href="#" class="dropdown__item-link">SHOP</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="#" class="dropdown__item-link">FASHION</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="#" class="dropdown__item-link">GALLERY</a>
+              </li>
+            </ul>
           </li>
-          <li class="header__list-item">
-            <a href="$" class="header__list-item-link">BLOG</a>
+          <li class="header__nav-list-item">
+            <a href="#" class="header__nav-list-item-link">BLOG</a>
           </li>
-          <li class="header__list-item">
-            <a href="$" class="header__list-item-link">ABOUT</a>
+          <li class="header__nav-list-item">
+            <a href="#" class="header__nav-list-item-link">ABOUT</a>
           </li>
-          <li class="header__list-item">
-            <a href="$" class="header__list-item-link">SHORTCODES</a>
+          <li class="header__nav-list-item">
+            <a href="#" class="header__nav-list-item-link">SHORTCODES</a>
           </li>
         </ul>
-        <div class="header__search">
-          <input type="search" />
-          <button></button>
-        </div>
+        <form class="header__nav-form">
+          <input
+            type="text"
+            class="header__nav-form-input"
+            placeholder="Search"
+          />
+          <button class="header__nav-form-btn">
+            <img src="./images/search.svg" alt="" />
+          </button>
+        </form>
       </div>
     </header>
-    
   </body>
 </html>
