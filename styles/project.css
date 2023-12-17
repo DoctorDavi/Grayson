@@ -1,0 +1,41 @@
+.project {
+  background: url(../images/bg2.png) no-repeat center/cover;
+  height: 404px;
+}
+.project__wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.project__text {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 3px;
+}
+.project__title {
+  color: white;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 67px;
+  margin-bottom: 22px;
+}
+.project__btn {
+  color: #000;
+  font-size: 12px;
+  font-family: "PlayfairDisplay-Regular", sans-serif;
+  line-height: 16px;
+  width: 190px;
+  height: 53px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: white;
+  transition: 0.3s;
+}
+.project__btn:hover {
+  background: #41A28E;
+  color: #fff;
+}
