@@ -83,7 +83,9 @@
   margin-top: 70px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 29px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .custom__cards-card-info {
@@ -97,4 +99,10 @@
   font-size: 12px;
   font-weight: 400;
   line-height: 14px;
+}
+
+@media screen and (max-width: 1024px) {
+  .custom__desc-title {
+    font-size: 40px;
+  }
 }

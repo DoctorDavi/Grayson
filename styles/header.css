@@ -10,8 +10,10 @@
 
 .header__nav-list {
     display: flex;
-    gap: 40px;
+    gap: 0 40px;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .header__nav-list-item:nth-child(3) {
@@ -94,4 +96,14 @@
     border: none;
     outline: none;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__nav {
+    flex-direction: column;
+  }
+
+  .header__nav-list {
+    margin-bottom: 15px;
+  }
 }

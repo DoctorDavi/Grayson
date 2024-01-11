@@ -1,0 +1,127 @@
+.footer__main {
+  background: #000;
+  padding: 36px 0;
+}
+
+.footer__main-wrap {
+  display: flex;
+  gap: 40px 29px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer__main-content-info {
+  max-width: 255px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+
+.footer__main-content-info-title {
+  font-weight: 400;
+  color: #fff;
+  font-size: 24px;
+}
+
+.footer__main-content-info-list {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.footer__main-content-info-list_third {
+  gap: 12px;
+}
+
+.footer__main-content-info-list-item {
+  display: flex;
+  gap: 10px;
+}
+
+.footer__main-content-info-list-item-link {
+  color: #fff;
+  font-family: "Roboto-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.footer__main-side {
+  max-width: 255px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__main-side-title {
+  font-weight: 400;
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.footer__main-side-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.footer__main-side-form-input {
+  padding: 14px 10px;
+  background: #fff;
+  border: none;
+  outline: none;
+  color: #909090;
+  font-family: "Roboto-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.footer__main-side-form-btn {
+  color: #fff;
+  font-family: "Roboto-Regular", sans-serif;
+  font-weight: 400;
+  padding: 12px 10px;
+  background: #41a28e;
+  border: none;
+}
+
+.footer__main-side-text {
+  color: #fff;
+  font-family: "Roboto-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.footer__main-side-socials {
+  display: flex;
+  gap: 25px;
+}
+
+.footer__side {
+  padding: 40px 0;
+  background: #121212;
+}
+
+.footer__side-wrap {
+  display: flex;
+  gap: 3px;
+  justify-content: center;
+}
+
+.footer__side-text {
+  color: #666;
+  font-family: "Roboto-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.footer__side-link {
+  color: #666;
+  text-shadow: 0px 0px 4px #e52d27;
+  font-family: 'Roboto-Regular', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+}

@@ -28,6 +28,7 @@
     font-size: 50px;
     font-weight: 400;
     line-height: 67px;
+    text-align: center;
 }
 
 .banner__text {
@@ -53,4 +54,11 @@
 .banner__btn:hover {
     background: #41A28E;
     color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .banner__title {
+    font-size: 30px;
+    padding: 8px 30px;
+  }
 }

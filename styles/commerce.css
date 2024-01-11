@@ -4,9 +4,11 @@
 
 .commerce__cards {
     display: flex;
-    justify-content: space-between;
+    gap: 29px;
     align-items: center;
     margin-bottom: 52px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .commerce__cards-card {
@@ -65,4 +67,10 @@
     font-weight: 400;
     line-height: 19px;
     color: #666;
+}
+
+@media screen and (max-width: 1024px) {
+  .commerce__desc-title {
+    font-size: 40px;
+  }
 }
